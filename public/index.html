@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de solicitud</title>
+</head>
+
+<body>
+    <h1>Formulario de Envío</h1>
+    <form action="/enviar" method="post">
+        <label>ID:</label>
+        <input type="text" name="id" ><br>
+
+        <label>Nombre:</label>
+        <input type="text" name="nombre" ><br>
+
+        <label>Apellido:</label>
+        <input type="text" name="apellido" ><br>
+
+        <label>Título del Libro:</label>
+        <input type="text" name="titulo" ><br>
+
+        <label>Autor del Libro:</label>
+        <input type="text" name="autor" ><br>
+
+        <label>Editorial:</label>
+        <input type="text" name="editorial" ><br>
+
+        <label>Año:</label>
+        <input type="number" name="año" ><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <p>Al presionar enviar se descargara un archivo con sus datos</p>
+</body>
+
+</html>
